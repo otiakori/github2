@@ -215,10 +215,13 @@ color: #091E42;
   
   position: absolute;
   width: 375px;
-  height: 300px;
+  height: 600px;
   left: 400px;
   top: 1850px;
   background-image: url(professionally-printe-postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 
 
 
@@ -237,3 +240,535 @@ line-height: 24px;
     
 
  }
+
+ .ps>h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 44px;
+  
+  color: #FFFFFF;
+  
+ }
+ .ps>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+
+ .ps>.jon{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;   
+   
+     top: 600px;
+    align-items: center;
+
+
+ }
+ .ps>.jon>div{
+
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+
+}
+
+ .ps>.r{
+
+  background-color: #FF6B00; 
+  padding: 5px;
+  width: 360px;
+ height: 48px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .a{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 2690px;
+  background-image: url(professionally-printe-postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+
+
+
+ }
+ .a>h3{
+   background-color: #FF6B00;;
+   color: white;
+   padding: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+    
+
+ }
+
+ .a>h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 44px;
+  
+  color: #FFFFFF;
+  
+ }
+ .a>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+
+ .a>.b{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;   
+   
+     top: 600px;
+    align-items: center;
+
+
+ }
+ .a>.b>div{
+
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+
+}
+
+ .a>.c{
+
+  background-color: #FF6B00; 
+  padding: 5px;
+  width: 360px;
+ height: 48px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+ .aa{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 3500px;
+  background-image: url(professionally-printe-postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+
+
+
+ }
+ .aa>h3{
+   background-color: #FF6B00;;
+   color: white;
+   padding: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+    
+
+ }
+
+ .aa>h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 44px;
+  
+  color: #FFFFFF;
+  
+ }
+ .aa>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+
+ .aa>.ab{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;   
+   
+     top: 600px;
+    align-items: center;
+
+
+ }
+ .aa>.ab>div{
+
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+
+}
+
+ .aa>.ac{
+
+  background-color: #FF6B00; 
+  padding: 5px;
+  width: 360px;
+ height: 48px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+
+
+ }
+
+
+
+ 
+
+
+
+ .p{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 4300px;
+  background-image: url(professionally-printe-postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+
+
+
+ }
+ .p>h3{
+   background-color: #FF6B00;;
+   color: white;
+   padding: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+    
+
+ }
+
+ .p>h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 44px;
+  
+  color: #FFFFFF;
+  
+ }
+ .p>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+
+ .p>.q{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;   
+   
+     top: 600px;
+    align-items: center;
+
+
+ }
+ .p>.q>div{
+
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+
+}
+
+ .p>.s{
+
+  background-color: #FF6B00; 
+  padding: 5px;
+  width: 360px;
+ height: 48px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ .x{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 5100px;
+  background-image: url(professionally-printe-postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+
+
+
+ }
+ .x>h3{
+   background-color: #FF6B00;;
+   color: white;
+   padding: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+    
+
+ }
+
+ .x>h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 44px;
+  
+  color: #FFFFFF;
+  
+ }
+ .x>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+
+ .x>.y{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;   
+   
+     top: 600px;
+    align-items: center;
+
+
+ }
+ .x>.y>div{
+
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+
+}
+
+ .x>.z{
+
+  background-color: #FF6B00; 
+  padding: 5px;
+  width: 360px;
+ height: 48px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+
+
+ }
+.about{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 5900px;
+  background:#1b1816;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.about>h2{
+  font-size: 72px;
+  font-style: normal;
+font-weight: normal;
+font-size: 84px;
+line-height: 88px;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+color: #FF6B00;
+}
+.about>p{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+
+}
+.about>h3{
+  background-color: #FF6B00;;
+  color: white;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+   
+
+}
+
+
+
+
+
+ 
+
+
+
+
