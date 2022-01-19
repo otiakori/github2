@@ -3,7 +3,7 @@
 .don{ 
   position: relative;
   width: 375px;
-  height: 6968px;}
+  height: 8000px;}
   .main-nav {
     display: flex;
     background:#3E3C3C;
@@ -713,6 +713,8 @@ font-size: 30px;
 
 
  }
+
+
 .about{
 
   display: flex;
@@ -764,7 +766,36 @@ line-height: 24px;
 }
 
 
+.lang{
 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  
+  position: absolute;
+  width: 375px;
+  height: 900px;
+  left: 400px;
+  top: 6600px;
+  background:#1b1816;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.lang>ul{
+
+     color: white;
+     align-items: center;
+     text-align: center;
+
+
+
+}
+.lang>ul>li{
+
+  list-style: none;font-size: xx-large;
+}
 
 
  
