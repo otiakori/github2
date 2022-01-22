@@ -1,0 +1,683 @@
+ 
+.don{ 
+  position: relative;
+  width: 375px;
+  height: 10000px;}
+  .main-nav {
+    display: flex;
+    background:#3E3C3C;
+    color: white;
+    border-radius: 3px;
+    padding: 1.5em;
+    font-family: sans-serif;
+    position: absolute;
+width: 375px;
+height: 92px;
+left: 400px;
+top: 0px;
+  }   
+  .main-nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 7;
+    display: flex;
+    flex: 3;
+  }
+  .main-nav li {
+    margin-right: 1em;
+  }
+  .main-nav > form {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  .main-nav input {
+    flex: 1;
+  }
+  .main-nav button {
+    background: white;
+    border: 0;
+    border-radius: 1em;
+    color: orangered;
+    padding: 0 1em;
+    margin-left: .3em;
+  }
+ @media screen and (max-width: 575px) {
+   .main-nav {
+     flex-direction: column;
+   }
+   .main-nav ul {
+     flex-direction: row; /* Change this to 'column' to stack the links */
+     margin-bottom: 1em;
+   }
+  }
+  .nx{
+    font-family:robotto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFF5E1;
+    position: absolute;
+    width: 375px;
+    height: 27px;
+    left: 400px;
+    top: 450px;
+     
+  }
+  .d{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;  position: absolute;
+    width: 375px;
+    height: 27px;
+    left: 400px;
+    top: 500px;  
+  }
+  .cd{
+      
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 24px;
+    
+    position: absolute;
+    width: 375px;
+    height: 700px;
+    left: 400px;
+    top: 92px;
+    background: #1b1816;
+  }
+  h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #FF6B00;
+  }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;
+    height: 30px;
+    left: 400px;
+    top: 700px;
+    align-items: center;
+}
+.grid-container >div{
+  background-color: white;
+  border-radius: 10px;
+  padding:3px;
+}
+.next{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  position: absolute;
+  width: 375px;
+  height: 900px;
+  left: 400px;
+  top: 900px;
+  background: #cecbc9;
+}
+.next>h2{
+  color: #1b1816;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #1C1A19;
+}
+.next>h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091E42;
+}
+.next>p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 24px;
+color: #091E42;
+}
+.next>.lo{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  position: absolute;
+      width: 375px;   
+     
+       top: 900px;
+      align-items: center;
+}
+.next>.lo>div{
+  background-color: white;
+  border-radius: 0;
+  padding:10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+}
+ .ps{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 1850px;
+  background-image: url(images/professionally-printe-postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .ps>h3{
+   background-color: #FF6B00;;
+   color: white;
+   padding: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+ }
+ .ps>h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 44px;
+  color: #FFFFFF;
+ }
+ .ps>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+ .ps>.jon{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;   
+     top: 600px;
+    align-items: center;
+ }
+ .ps>.jon>div{
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+}
+ .ps>.r{
+  background-color: #FF6B00; 
+  padding: 5px;
+  width: 360px;
+ height: 48px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+ }
+ .a{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 2690px;
+  background-image: url(images/professionally-printe-postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .a>h3{
+   background-color: #FF6B00;;
+   color: white;
+   padding: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+ }
+
+ .a>h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 44px;
+  color: #FFFFFF;
+ }
+ .a>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+ .a>.b{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;    
+     top: 600px;
+    align-items: center;
+ }
+ .a>.b>div{
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+
+}
+ .a>.c{
+  background-color: #FF6B00; 
+  padding: 5px;
+  width: 360px;
+ height: 48px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+ }
+ .aa{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 3500px;
+  background-image: url(images/professionally-printe-postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .aa>h3{
+   background-color: #FF6B00;;
+   color: white;
+   padding: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+ }
+ .aa>h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 44px;
+  color: #FFFFFF;
+ }
+ .aa>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+ .aa>.ab{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;   
+     top: 600px;
+    align-items: center;
+ }
+ .aa>.ab>div{
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+
+}
+ .aa>.ac{
+  background-color: #FF6B00; 
+  padding: 5px;
+  width: 360px;
+ height: 48px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+ }
+ .p{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 4300px;
+  background-image: url(images/professionally-printe-postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .p>h3{
+   background-color: #FF6B00;;
+   color: white;
+   padding: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+ }
+ .p>h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 44px; 
+  color: #FFFFFF;
+ }
+ .p>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+ .p>.q{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;   
+     top: 600px;
+    align-items: center;
+ }
+ .p>.q>div{
+
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+}
+ .p>.s{
+  background-color: #FF6B00; 
+  padding: 5px;
+  width: 360px;
+ height: 48px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+ }
+ .x{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px; 
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 5100px;
+  background-image: url(images/professionally-printe-postcard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .x>h3{
+   background-color: #FF6B00;;
+   color: white;
+   padding: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;  
+ }
+ .x>h1{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 44px;
+  color: #FFFFFF;
+ }
+ .x>p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+ }
+ .x>.y{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+position: absolute;
+    width: 375px;   
+     top: 600px;
+    align-items: center;
+ }
+ .x>.y>div{
+  background-color: lightgrey;
+  border-radius: 2px;
+  padding:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+color: #091E42;
+}
+ .x>.z{
+  background-color: #FF6B00; 
+  padding: 5px;
+  width: 360px;
+ height: 48px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+ }
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 400px;
+  top: 5900px;
+  background:#1b1816;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about>h2{
+  font-size: 72px;
+  font-style: normal;
+font-weight: normal;
+font-size: 84px;
+line-height: 88px;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #FF6B00;
+}
+.about>p{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.about>h3{
+  background-color: #FF6B00;;
+  color: white;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+}
+.lang{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  
+  position: absolute;
+  width: 375px;
+  height: 1700px;
+  left: 400px;
+  top: 6600px;
+  background:#1b1816;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lang>ul{
+
+     color: white;
+     align-items: center;
+     text-align: center;
+}
+.lang>ul>li{
+
+  list-style: none;font-size: xx-large;
+}
+.iam{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  
+  position: absolute;
+  width: 375px;
+  height: 900px;
+  left: 400px;
+  top: 8400px;
+  background:#f7f5f4ef;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.iam>p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 44px;
+text-align: center;
+color: #172B4D;
+}
+ #fname{
+padding: 20px;
+width: 330px;
+align-items: center;
+border-top: white;
+  border-left: white;
+  border-right: white;
+ border-bottom-style:ridge ;
+ }
+ #email{
+  padding: 20px;
+  width: 330px;
+  align-items: center;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+ }
+ #area{
+  border-top: white;
+  border-left: white;
+  border-right: white;
+  padding: 40px;
+  width: 290px;
+  align-items: center;
+  background: #FBF8F7;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+ }
+ #sub{
+  background-color: #FF6B00;;
+   color: white;
+   padding: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px; 
+align-items: center;
+}
+#sub:hover{
+  background-color: green;
+}
+ .grid-c{
+  display: grid;
+  grid-template-columns: auto auto auto  auto;
+  grid-gap: 10px;
+ }
+
+
+
+
