@@ -285,7 +285,7 @@ h1 {
   width: 375px;
   height: 600px;
   left: 400px;
-  top: 2690px;
+  top: 2640px;
   background-image: url(images/professionally-printe-postcard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -362,7 +362,7 @@ h1 {
   width: 375px;
   height: 600px;
   left: 400px;
-  top: 3500px;
+  top: 3460px;
   background-image: url(images/professionally-printe-postcard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -719,6 +719,8 @@ h1 {
   font-size: 17px;
   line-height: 24px;
   align-items: center;
+  text-align: center;
+  width: 100%;
 }
 
 #sub:hover {
