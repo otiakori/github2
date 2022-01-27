@@ -72,12 +72,12 @@
   position: absolute;
   width: 375px;
   height: 27px;
-  left: 400px;
+  left: 420px;
   top: 450px;
 }
 
 .d {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -86,7 +86,7 @@
   position: absolute;
   width: 375px;
   height: 27px;
-  left: 400px;
+  left: 420px;
   top: 500px;
 }
 
